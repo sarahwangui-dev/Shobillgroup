@@ -1,0 +1,181 @@
+// paper & background
+$paper: #ffffff;
+
+// Primary
+$primaryMain: #fbad59;
+$primaryLight: #ffe7d0;
+$primaryDark: #da964c;
+$primary200: #eccfa5;
+$primary800: #fdbe7f;
+
+// Secondary
+$secondaryMain: #17254d;
+$secondaryLight: #3e4c6f;
+$secondaryDark: #121f42;
+$secondary200: #cbcfda;
+$secondary800: #2a385e;
+
+// success Colors
+$successLight: #e3f8e8;
+$success200: #8be09f;
+$successMain: #00c350;
+$successDark: #009c2c;
+
+// error
+$errorLight: #e48784;
+$errorMain: #d9534f;
+$errorDark: #d54c48;
+
+// orange
+$orangeLight: #fbe9e7;
+$orangeMain: #ffab91;
+$orangeDark: #d84315;
+
+// warning
+$warningLight: #fdf5ea;
+$warningMain: #f0ad4e;
+$warningDark: #ec9c3d;
+
+// grey
+$grey50: #fafafa;
+$grey100: #f5f5f5;
+$grey200: #eeeeee;
+$grey300: #e0e0e0;
+$grey500: #9e9e9e;
+$grey600: #757575;
+$grey700: #616161;
+$grey900: #212121;
+
+// common
+$pink-1: #ba3894;
+$orange-1: #f98829;
+$orange-2: #ce6500;
+$yellow-1: #faed26;
+$red-1: #c70e05;
+$borderGrey: #746f6f;
+$snow-1: #fafafa;
+$gradient-1: linear-gradient(
+  132.58deg,
+  rgba(18, 239, 199, 0.28) 24.79%,
+  rgba(145, 47, 140, 0.26) 87.48%
+);
+$gradient-2: rgbaa(#28a9e133, 0.2);
+
+// ==============================|| DARK THEME VARIANTS ||============================== //
+
+// paper & background
+$darkBackground: #0a0f23; // level 3
+$darkPaper: #030614; // level 4
+
+// dark 800 & 900
+$darkLevel1: #070e13; // level 1
+$darkLevel2: #12172f; // level 2
+
+// primary dark
+$darkPrimaryLight: #ecedf1;
+$darkPrimaryMain: #606d88;
+$darkPrimaryDark: #586580;
+$darkPrimary200: #b0b6c4;
+$darkPrimary800: #44506b;
+
+// secondary dark
+$darkSecondaryLight: lighten($secondaryMain, 15%);
+$darkSecondaryMain: $secondaryMain;
+$darkSecondaryDark: darken($secondaryMain, 15%);
+$darkSecondary200: lighten($secondary200, 10%);
+$darkSecondary800: darken($secondary800, 10%);
+
+// text variants
+$darkTextTitle: #e4e8f7;
+$darkTextPrimary: #d5d9e9;
+$darkTextSecondary: #d8ddf0;
+
+// ==============================|| JAVASCRIPT ||============================== //
+
+:export {
+  // paper & background
+  paper: $paper;
+
+  // primary
+  primaryLight: $primaryLight;
+  primary200: $primary200;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary800: $primary800;
+
+  // secondary
+  secondaryLight: $secondaryLight;
+  secondary200: $secondary200;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondary800: $secondary800;
+
+  // success
+  successLight: $successLight;
+  success200: $success200;
+  successMain: $successMain;
+  successDark: $successDark;
+
+  // error
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+
+  // orange
+  orangeLight: $orangeLight;
+  orangeMain: $orangeMain;
+  orangeDark: $orangeDark;
+
+  // warning
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+
+  // grey
+  grey50: $grey50;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey900: $grey900;
+
+  // ==============================|| DARK THEME VARIANTS ||============================== //
+
+  // paper & background
+  darkPaper: $darkPaper;
+  darkBackground: $darkBackground;
+
+  // dark 800 & 900
+  darkLevel1: $darkLevel1;
+  darkLevel2: $darkLevel2;
+
+  // text variants
+  darkTextTitle: $darkTextTitle;
+  darkTextPrimary: $darkTextPrimary;
+  darkTextSecondary: $darkTextSecondary;
+
+  // primary dark
+  darkPrimaryLight: $darkPrimaryLight;
+  darkPrimaryMain: $darkPrimaryMain;
+  darkPrimaryDark: $darkPrimaryDark;
+  darkPrimary200: $darkPrimary200;
+  darkPrimary800: $darkPrimary800;
+
+  // secondary dark
+  darkSecondaryLight: $darkSecondaryLight;
+  darkSecondaryMain: $darkSecondaryMain;
+  darkSecondaryDark: $darkSecondaryDark;
+  darkSecondary200: $darkSecondary200;
+  darkSecondary800: $darkSecondary800;
+
+  pink-1: $pink-1;
+  orange-1: $orange-1;
+  yellow-1: $yellow-1;
+  red-1: $red-1;
+  borderGrey: $borderGrey;
+  snow-1: $snow-1;
+
+  orange200: $orange-2;
+}

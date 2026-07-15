@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  shobill_fend:
+    image: shobill_fend
+    container_name: shobill_fend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
+    command: npm start
