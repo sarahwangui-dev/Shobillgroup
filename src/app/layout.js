@@ -5,6 +5,7 @@ import StoreProvider from './_providers/StoreProvider';
 import Notistack from './_providers/notistack';
 import { SanityLive } from '@/sanity/live';
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
