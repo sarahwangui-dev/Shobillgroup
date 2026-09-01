@@ -14,10 +14,14 @@ const useEmailJs = () => {
         PUBLIC_KEY
       );
 
+      console.log('EmailJS response:', response);
       return { success: true };
     } catch (error) {
       console.error('Failed to send email:', error);
-      return { success: false };
+      return {
+        success: false,
+        error: error
+      };
     }
   };
 

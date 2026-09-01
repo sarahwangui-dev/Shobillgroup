@@ -59,12 +59,13 @@ export default function ContactUs() {
     setIsLoading(true);
 
     const templateParams = {
-      first_name: data['first_name'],
-      last_name: data['last_name'],
-      email: data['email'],
-      company: data['company'],
-      title: data['title'],
-      message: data['message']
+      first_name: data.first_name,
+      last_name: data.last_name,
+      email: data.email,
+      phone_number: data.phone_number,
+      company: data.company,
+      title: data.title,
+      message: data.message
     };
 
     const response = await sendEmail(TEMPLATE_ID, templateParams);
