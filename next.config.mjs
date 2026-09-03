@@ -6,7 +6,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'cdn.sanity.io' },
       { protocol: 'https', hostname: 'placehold.co' },
       { protocol: 'https', hostname: 'shobillgroup.com' },
-      { protocol: 'https', hostname: 'www.shobillgroup.com' },
+      { protocol: 'https', hostname: 'www.shobillgroup.com' }
     ]
   }
 };
